@@ -9,6 +9,10 @@ You can get new key for free if you create account on https://appbeat.io.
 Once you are registered login to https://my.appbeat.io/manage, click Account / API Access and generate new key
 (important: free plans have keys bound to IP address - you must set it to IP address from which API is called).
 
+Once you have secret key you will have to save it to text file called **secret.key** located in:
+* same directory as AppBeat.CLI.dll or,
+* %HOME%/AppBeat on Linux / Unix or %LOCALAPPDATA%\AppBeat on Windows
+
 You can run application on Windows, Linux and Mac, but you have to install .NET Core runtime first. You can get it for free from https://www.microsoft.com/net/core
 
 Usage example:
